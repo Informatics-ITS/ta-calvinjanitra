@@ -38,22 +38,18 @@ _Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimpro
    git clone https://github.com/Informatics-ITS/TA.git
    ```
 2. **Instalasi Dependensi**
-   ```bash
-   cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
-   ```
-3. **Konfigurasi**
 
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
+  - Pastikan memilih g++, gcc, dan mingw32-make saat instalasi.
 
-4. **Jalankan Aplikasi**
-   ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
-   ```
-5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
+  - Biarkan default path (C:\MinGW), lalu lanjutkan install.
+   
+3. **Tambahkan ke PATH**
+
+  - Buka "Environment Variables".
+
+  - Tambahkan ke Path:
+    C:\MinGW\bin
+
 
 ---
 
